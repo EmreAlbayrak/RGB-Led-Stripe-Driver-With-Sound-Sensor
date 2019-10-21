@@ -49,12 +49,12 @@ void loop(){
   if(Serial.available()>0){  
     Serial.readBytes(SerialData,4);
     if(SerialData[0] == 'c'){
-      SerialColour = SerialData[1]; //SerialData is coming ascii. I need to convert ascii to int.
+      SerialColour = SerialData[1]; 
       Serial.print("\nNew colour : ");
       Serial.print((char)SerialColour);
     }
     if(SerialData[0] == 'p'){
-      PeakInput = SerialData[1]; //Also same situation happens here.
+      PeakInput = SerialData[1]; 
       PeakLimit = peak(PeakInput);
     }
   }
