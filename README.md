@@ -3,6 +3,6 @@
 
 -RGB Leds Flashes when music level reaches the peak level.
 
--RGB_Serial_Arduino.ino file works with RGBSerial.py. It enables to change colour and peak level from pc.
+-RGB_Serial_Arduino.ino file works with RGBSerial.py. It enables to change colour and peak level from pc whitout flashing arduino again.
 
 -Place the sound sensor into sub bass speakers hole and enjoy.
