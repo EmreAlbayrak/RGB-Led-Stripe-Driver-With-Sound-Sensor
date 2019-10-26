@@ -63,7 +63,7 @@ void loop(){
 //--------------------------------------------------Functions Here
 int peak(int peakinput){
   if(peakinput == '1'){
-    return 60;
+    return 80;
   }
   if(peakinput == '2'){
     return 100;
